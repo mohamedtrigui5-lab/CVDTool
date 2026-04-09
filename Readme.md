@@ -1,10 +1,10 @@
-\# CVD: Bit-Plane Layered Image Compression (CVD1 \& CVD2)
+\# CVD-BitMatrix™ (formerly CVD Tool): Bit-Plane Layered Image Compression (CVD1 \& CVD2)
 
 
 
 \## 🚀 Overview
 
-CVD (Color-Vector-Decimal) is a \*\*revolutionary image encoding algorithm\*\* that bridge the gap between raster and vector graphics. Instead of compressing pixel blocks (like JPG/PNG), CVD decomposes images into \*\*sequential binary layers (Bit-Planes)\*\* for each unique color.
+CVD-BitMatrix (Color-Vector-Decimal) is a \*\*revolutionary image encoding algorithm\*\* that bridge the gap between raster and vector graphics. Instead of compressing pixel blocks (like JPG/PNG), CVD-BitMatrix decomposes images into \*\*sequential binary layers (Bit-Planes)\*\* for each unique color.
 
 
 
@@ -12,7 +12,7 @@ CVD (Color-Vector-Decimal) is a \*\*revolutionary image encoding algorithm\*\* t
 
 
 
-| Format | Mode | Compression Gain | PNG Size | CVD Size |
+| Format | Mode | Compression Gain | PNG Size | CVD-BitMatrix Size |
 
 | :--- | :--- | :--- | :--- | :--- |
 
@@ -62,21 +62,21 @@ This project was conceived and developed by Mohamed Trigui, with technical assis
 
 
 
-🚀 CVD : Couleur-Vecteur-Decimal Compression
+🚀 CVD-BitMatrix : Couleur-Vecteur-Decimal Compression
 
 L'algorithme de séquençage binaire par couches de couleurs
 
 🌟 Présentation
 
-CVD (CVDTool) est un projet de recherche introduisant un algorithme de compression d'image révolutionnaire. Contrairement aux formats classiques (JPG/PNG), CVD décompose l'image en plans binaires séquentiels pour chaque couleur unique.
+CVD-BitMatrix est un projet de recherche introduisant un algorithme de compression d'image révolutionnaire. Contrairement aux formats classiques (JPG/PNG), CVD-BitMatrix décompose l'image en plans binaires séquentiels pour chaque couleur unique.
 
 Cette approche permet d'allier la précision du raster à la flexibilité du vectoriel, tout en atteignant des ratios de compression dépassant 1000:1.
 
 📊 Performances Records (Observées)
 
-Basé sur des tests réels (Images HD/AI), CVD surclasse les standards actuels dans des scénarios spécifiques :
+Basé sur des tests réels (Images HD/AI), CVD-BitMatrix surclasse les standards actuels dans des scénarios spécifiques :
 
-Format			Type		Gain de compression	Taille PNG		Taille CVD
+Format			Type		Gain de compression	Taille PNG		Taille CVD-BitMatrix
 
 CVD1Lossless	Jusqu'à 		85%			17 Ko			2 Ko
 CVD2Lossy	Jusqu'à 		99.9%			13 000 Ko		12 Ko
