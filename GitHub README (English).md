@@ -18,7 +18,7 @@ CVD (Color-Vector-Decimal) is a \*\*revolutionary image encoding algorithm\*\* t
 
 | \*\*CVD1\*\* | \*\*Lossless\*\* | \*\*Up to 85%\*\* | 17 KB | \*\*2 KB\*\* |
 
-| \*\*CVD2\*\* | \*\*Lossy\*\* | \*\*Up to 99.9%\*\* | 13,000 KB | \*\*10 KB\*\* |
+| \*\*CVD2\*\* | \*\*Lossy\*\* | \*\*Up to 99.9%\*\* | 13,000 KB | \*\*12 KB\*\* |
 
 
 
