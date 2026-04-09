@@ -1,10 +1,10 @@
-\# CVD : Compression d'Image par Séquençage Binaire (CVD1 \& CVD2)
+\# CVD-BitMatrix : Compression d'Image par Séquençage Binaire (CVD1 \& CVD2)
 
 
 
 \## 🚀 Présentation
 
-CVD (Couleur-Vecteur-Decimal) est un \*\*algorithme d'encodage révolutionnaire\*\* qui traite l'image non pas comme un amas de pixels, mais comme une série de \*\*couches binaires séquentielles (Bit-Planes)\*\*.
+CVD-BitMatrix (Couleur-Vecteur-Decimal) est un \*\*algorithme d'encodage révolutionnaire\*\* qui traite l'image non pas comme un amas de pixels, mais comme une série de \*\*couches binaires séquentielles (Bit-Planes)\*\*.
 
 
 
@@ -12,7 +12,7 @@ CVD (Couleur-Vecteur-Decimal) est un \*\*algorithme d'encodage révolutionnaire\
 
 \- \*\*CVD1 (Lossless) :\*\* Jusqu'à 85% de gain (ex: 17 Ko PNG ➔ 2 Ko CVD).
 
-\- \*\*CVD2 (Lossy) :\*\* Jusqu'à 99.9% de gain (ex: 13 Mo PNG ➔ 12 Ko CVD).
+\- \*\*CVD2 (Lossy) :\*\* Jusqu'à 99.9% de gain (ex: 13 Mo PNG ➔ 10 Ko CVD).
 
 
 
@@ -43,6 +43,4 @@ CVD (Couleur-Vecteur-Decimal) est un \*\*algorithme d'encodage révolutionnaire\
 \### 🙏 Remerciements
 
 Ce projet a été conçu et développé par Mohamed Trigui, avec l'assistance technique des modèles d'intelligence artificielle Gemini (Google) et ChatGPT (OpenAI) pour l'optimisation des algorithmes et le débogage.
-
-
 

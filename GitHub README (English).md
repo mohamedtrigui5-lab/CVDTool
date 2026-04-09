@@ -1,10 +1,10 @@
-\# CVD: Bit-Plane Layered Image Compression (CVD1 \& CVD2)
+\# CVD-BitMatrix: Bit-Plane Layered Image Compression (CVD1 \& CVD2)
 
 
 
 \## 🚀 Overview
 
-CVD (Color-Vector-Decimal) is a \*\*revolutionary image encoding algorithm\*\* that bridge the gap between raster and vector graphics. Instead of compressing pixel blocks (like JPG/PNG), CVD decomposes images into \*\*sequential binary layers (Bit-Planes)\*\* for each unique color.
+CVD-BitMatrix (Color-Vector-Decimal) is a \*\*revolutionary image encoding algorithm\*\* that bridge the gap between raster and vector graphics. Instead of compressing pixel blocks (like JPG/PNG), CVD-BitMatrix decomposes images into \*\*sequential binary layers (Bit-Planes)\*\* for each unique color.
 
 
 
@@ -12,13 +12,13 @@ CVD (Color-Vector-Decimal) is a \*\*revolutionary image encoding algorithm\*\* t
 
 
 
-| Format | Mode | Compression Gain | PNG Size | CVD Size |
+| Format | Mode | Compression Gain | PNG Size | CVD-BitMatrix Size |
 
 | :--- | :--- | :--- | :--- | :--- |
 
 | \*\*CVD1\*\* | \*\*Lossless\*\* | \*\*Up to 85%\*\* | 17 KB | \*\*2 KB\*\* |
 
-| \*\*CVD2\*\* | \*\*Lossy\*\* | \*\*Up to 99.9%\*\* | 13,000 KB | \*\*12 KB\*\* |
+| \*\*CVD2\*\* | \*\*Lossy\*\* | \*\*Up to 99.9%\*\* | 13,000 KB | \*\*10 KB\*\* |
 
 
 
