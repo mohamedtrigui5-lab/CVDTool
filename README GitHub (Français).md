@@ -12,7 +12,7 @@ CVD (Couleur-Vecteur-Decimal) est un \*\*algorithme d'encodage révolutionnaire\
 
 \- \*\*CVD1 (Lossless) :\*\* Jusqu'à 85% de gain (ex: 17 Ko PNG ➔ 2 Ko CVD).
 
-\- \*\*CVD2 (Lossy) :\*\* Jusqu'à 99.9% de gain (ex: 13 Mo PNG ➔ 10 Ko CVD).
+\- \*\*CVD2 (Lossy) :\*\* Jusqu'à 99.9% de gain (ex: 13 Mo PNG ➔ 12 Ko CVD).
 
 
 
