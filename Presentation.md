@@ -30,7 +30,7 @@ Gain de \~50% à 85% par rapport au PNG (ex: 17 Ko ➔ 2 Ko).Mode CVD2 (Lossy) :
 
 
 
-Gain de \~99.9% (ex: 13 Mo ➔ 10 Ko).Vitesse : Traitement instantané grâce à l'accès direct aux bits (Complexité \\(O(N)\\)).
+Gain de \~99.9% (ex: 13 Mo ➔ 12 Ko).Vitesse : Traitement instantané grâce à l'accès direct aux bits (Complexité \\(O(N)\\)).
 
 
 
@@ -80,7 +80,7 @@ CVD1 Mode (Lossless): 50% to 85% gain over PNG (e.g., 17 KB ➔ 2 KB).
 
 
 
-CVD2 Mode (Lossy): 99.9% size reduction (e.g., 13 MB ➔ 10 KB).Speed: Instant processing via direct bit access (\\(O(N)\\) complexity)
+CVD2 Mode (Lossy): 99.9% size reduction (e.g., 13 MB ➔ 12 KB).Speed: Instant processing via direct bit access (\\(O(N)\\) complexity)
 
 
 
