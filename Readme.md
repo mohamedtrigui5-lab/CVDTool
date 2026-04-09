@@ -18,7 +18,7 @@ CVD (Color-Vector-Decimal) is a \*\*revolutionary image encoding algorithm\*\* t
 
 | \*\*CVD1\*\* | \*\*Lossless\*\* | \*\*Up to 85%\*\* | 17 KB | \*\*2 KB\*\* |
 
-| \*\*CVD2\*\* | \*\*Lossy\*\* | \*\*Up to 99.9%\*\* | 13,000 KB | \*\*10 KB\*\* |
+| \*\*CVD2\*\* | \*\*Lossy\*\* | \*\*Up to 99.9%\*\* | 13,000 KB | \*\*12 KB\*\* |
 
 
 
@@ -79,7 +79,7 @@ Basé sur des tests réels (Images HD/AI), CVD surclasse les standards actuels d
 Format			Type		Gain de compression	Taille PNG		Taille CVD
 
 CVD1Lossless	Jusqu'à 		85%			17 Ko			2 Ko
-CVD2Lossy	Jusqu'à 		99.9%			13 000 Ko		10 Ko
+CVD2Lossy	Jusqu'à 		99.9%			13 000 Ko		12 Ko
 
 Gain Maximum : Réduction de la taille par 1300 (Mode CVD2).
 
