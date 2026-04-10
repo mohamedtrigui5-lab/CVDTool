@@ -92,4 +92,6 @@ Z / X : Zoom dynamique avec Antialiasing.
 📄 LicenseCe projet est publié sous licence MIT.
 Pour toute demande de licence commerciale, veuillez contacter l'auteur.
 
-🙏 RemerciementsConçu et développé par Mohamed Trigui, avec l'assistance technique des modèles d'IA Gemini (Google) et ChatGPT (OpenAI).
+🙏 Remerciements
+
+Conçu et développé par Mohamed Trigui, avec l'assistance technique des modèles d'IA Gemini (Google) et ChatGPT (OpenAI).
