@@ -64,3 +64,32 @@ Le concept repose sur la transformation d'une image en un flux binaire pur où *
 - Signature (3 octets)
 - Résolution (4+4 octets)
 - Blocs de données compressés (Entropy Coding)
+
+Roadmap & Future Developments
+
+La technologie CVD-BitMatrix™ est conçue pour évoluer sur trois branches de recherche distinctes :
+
+CVD-BitMatrix v1.x (CPU-Turbo) : Version stable actuelle. Optimisation Multi-threading et SIMD pour atteindre un encodage quasi-instantané sur processeurs de bureau.
+
+CVD-BitMatrix GPU (Real-Time) : Port direct vers les Shaders (GLSL/Vulkan/CUDA). Destiné aux moteurs de jeux pour le streaming de textures 8K avec décompression GPU à latence zéro.
+
+CVD-BitMatrix Retro (Legacy) : Version allégée optimisée pour les architectures 8/16-bits (NES, SNES). Utilisation d'un codage entropique simplifié (RLE/LZSS) pour maximiser le stockage sur cartouches limitées.
+
+Installation & UsageConfiguration :
+
+ C++17 ou supérieur, SFML 3.0, Windows (Win32 API).
+
+Commandes clavier :
+
+O : Encodage Lossless (CVD1).
+
+P : Encodage Lossy (CVD2).
+
+L : Charger/Décoder un fichier .CVD.
+
+Z / X : Zoom dynamique avec Antialiasing.
+
+📄 LicenseCe projet est publié sous licence MIT.
+Pour toute demande de licence commerciale, veuillez contacter l'auteur.
+
+🙏 RemerciementsConçu et développé par Mohamed Trigui, avec l'assistance technique des modèles d'IA Gemini (Google) et ChatGPT (OpenAI).
