@@ -97,9 +97,14 @@ Pour toute demande de licence commerciale, veuillez contacter l'auteur.
 Conçu et développé par Mohamed Trigui, avec l'assistance technique des modèles d'IA Gemini (Google) et ChatGPT (OpenAI).
 
 ---
+
+
+
+---
 ## 🌐 Community & Discussions
 Join the conversation and see what the tech community is saying about CVD-BitMatrix™:
 
 - **Hacker News:** [Discussion on HN](https://ycombinator.com)
 - **Unity Forum:** [Technical thread on Unity Discussions](https://unity.com)
 - **Technical Blog:** [Detailed proofs and visual comparisons](https://blogspot.com)
+
