@@ -100,7 +100,7 @@ Conçu et développé par Mohamed Trigui, avec l'assistance technique des modèl
 
 Join the conversation and see what the tech community is saying about CVD-BitMatrix™:
 
-- **Hacker News:** [Discussion on HN]([https://ycombinator.com](https://news.ycombinator.com/item?id=47699044))
-- **Unity Forum:** [Technical thread on Unity Discussions]([https://unity.com](https://discussions.unity.com/t/c-project-image-compression-algorithm-called-cvd-bitmatrix-technical-notices/1716050))
-- **Technical Blog:** [Detailed proofs and visual comparisons](https://mohamedtrigui5.blogspot.com/2026/04/comment-jai-compresse-une-image-de-13.html))
+- **Hacker News:** [Discussion on HN]([https://ycombinator.com] https://news.ycombinator.com/item?id=47699044
+- **Unity Forum:** [Technical thread on Unity Discussions] [https://unity.com] https://discussions.unity.com/t/c-project-image-compression-algorithm-called-cvd-bitmatrix-technical-notices/1716050
+- **Technical Blog:** [Detailed proofs and visual comparisons] https://mohamedtrigui5.blogspot.com/2026/04/comment-jai-compresse-une-image-de-13.html
 
