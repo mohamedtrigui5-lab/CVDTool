@@ -100,13 +100,13 @@ Conçu et développé par Mohamed Trigui, avec l'assistance technique des modèl
 
 
 
----
-## Community and Discussions
 
-Join the conversation and see what the tech community is saying about CVD-BitMatrix:
-
-* Hacker News: https://ycombinator.com
-* Unity Forum: https://unity.com
-* Technical Blog: https://blogspot.com
-
-
+<br>
+<hr>
+<h2>🌐 Community & Discussions</h2>
+<p>Join the conversation and see what the tech community is saying about CVD-BitMatrix™:</p>
+<ul>
+  <li><b>Hacker News:</b> <a href="https://ycombinator.com">Discussion on HN</a></li>
+  <li><b>Unity Forum:</b> <a href="https://unity.com">Technical thread on Unity Discussions</a></li>
+  <li><b>Technical Blog:</b> <a href="https://blogspot.com">Detailed proofs and visual comparisons</a></li>
+</ul>
