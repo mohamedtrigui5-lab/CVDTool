@@ -112,7 +112,11 @@ int main()
             originalImg = Encoder::decode(decodedData, (unsigned int)w, (unsigned int)h);
             displayImg = originalImg;
             currentZoom = 1.0f;
-            currentFileName = fs::path(path).stem().string();
+
+            // CORRECTION ICI : On récupère le nom complet avec l'extension (ex: image.cvd2)
+            // au lieu de prendre seulement le tronc (stem).
+            currentFileName = fs::path(path).filename().string();
+
             updateDisplay();
             updateUI();
         }
