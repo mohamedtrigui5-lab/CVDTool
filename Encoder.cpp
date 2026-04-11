@@ -1,9 +1,6 @@
 #include "Encoder.h"
 #include <map>
 
-#include "Encoder.h"
-#include <map>
-
 // TOLERANCE = 0  -> Lossless (Parfait mais plus lourd)
 // TOLERANCE = 15 -> Lossy (Très léger, idéal pour comparer au PNG)
 const int TOLERANCE = 12;
@@ -48,11 +45,30 @@ std::vector<ColorBlock> Encoder::encode(const sf::Image& img, int quality) {
 
 sf::Image Encoder::decode(const std::vector<ColorBlock>& data, unsigned int w, unsigned int h) {
     sf::Image img({ w, h }, sf::Color::Black);
+
     for (const auto& b : data) {
-        for (size_t i = 0; i < (size_t)w * h; i++) {
-            if (b.bitstream[i / 8] & (1 << (7 - (i % 8)))) {
-                // SFML 3 : setPixel utilise sf::Vector2u
-                img.setPixel({ (unsigned int)(i % w), (unsigned int)(i / w) }, b.color);
+        // Si le bitstream est vide (erreur de lecture ou de sauvegarde), on passe
+        if (b.bitstream.empty()) continue;
+
+        const uint8_t* ptr = b.bitstream.data();
+        size_t streamSize = b.bitstream.size();
+
+        for (size_t i = 0; i < streamSize; i++) {
+            uint8_t byte = ptr[i];
+
+            // ASTUCE DE L'ÎLOT : Si l'octet est 0, on saute 8 pixels d'un coup
+            if (byte == 0) continue;
+
+            // Sinon, on traite les 8 bits (pixels) de cet îlot
+            for (int bit = 0; bit < 8; bit++) {
+                if (byte & (1 << (7 - bit))) {
+                    uint32_t pos = (uint32_t)(i * 8 + bit);
+
+                    // Sécurité pour ne pas déborder de l'image
+                    if (pos < w * h) {
+                        img.setPixel({ pos % w, pos / w }, b.color);
+                    }
+                }
             }
         }
     }
