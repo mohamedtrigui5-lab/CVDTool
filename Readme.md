@@ -4,7 +4,7 @@
 Current master branch is undergoing a major refactoring for bit-matrix optimization. Stability issues expected in the current release. v3.0 coming soon."
 
 **"Current Status: Major Architecture Update v3.0"**
-The bit-matrix indexing engine is being refactored to support ultra-high-density bitstreams. The previous v1.0 release (deprecated) was a structural prototype. The new lossy quantization engine is currently in benchmarking.
+The bit-matrix indexing engine is being refactored to support ultra-high-density bitstreams. The previous v2.0 release (deprecated) was a structural prototype. The new lossy quantization engine is currently in benchmarking.
 
 
 
