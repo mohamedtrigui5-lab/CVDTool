@@ -1,3 +1,11 @@
+**Update:**
+
+"⚠️** Note: **
+Current master branch is undergoing a major refactoring for bit-matrix optimization. Stability issues expected in the current release. v3.0 coming soon."
+
+
+
+
 # CVD-BitMatrix™ (formerly CVD Tool)
 ### High-Performance Bit-Plane Layered Image Compression (CVD1 & CVD2)
 
