@@ -1,6 +1,8 @@
 ---
 
-⚠️ **Project Update – CVD-BitMatrix**   ⚠️ **Project status: Development stopped (see details below)**
+⚠️ **Project Update – CVD-BitMatrix** 
+
+⚠️ **Project status: Development stopped (see details below)**
 
 Hello everyone,
 
