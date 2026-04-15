@@ -1,3 +1,27 @@
+---
+
+⚠️ **Project Update – CVD-BitMatrix**
+
+Hello everyone,
+
+After several weeks of intensive research, testing, and iterations on CVD-BitMatrix, I would like to share an important update regarding the project.
+
+During the initial release, some results were based on incorrect calculations and incomplete validation. These issues have since been carefully reviewed and analyzed.
+
+Following deeper investigation, it appears that the performance levels initially observed cannot be reliably reproduced with the current approach. Further development has led to significantly different results, highlighting fundamental limitations in the current model.
+
+As a result, I have decided to stop active development of this version of the project.
+
+That said, this work remains a valuable research exploration into unconventional image compression techniques. It helped uncover important insights regarding matrix-based representations and their practical limits.
+
+The repository will remain available for transparency and learning purposes.
+
+I would like to thank everyone who provided feedback and support.
+
+— Mohamed Trigui
+---
+
+
 
 ⚠️ **Project Status Update – CVD-BitMatrix**
 
