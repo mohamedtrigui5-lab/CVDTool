@@ -1,3 +1,19 @@
+
+** Project Status Update – CVD-BitMatrix**
+
+After extensive research, testing, and multiple iterations, I have decided to stop active development of this project.
+
+Initial results published earlier were based on incorrect calculations and assumptions, which have since been thoroughly reviewed and corrected.
+
+Further investigation showed that achieving the previously claimed performance levels is not currently feasible with this approach.
+
+This project has nevertheless been a valuable research exploration into unconventional image compression techniques, and it helped identify important limitations and challenges in this area.
+
+The repository will remain available for transparency and educational purposes.
+
+**Thank you for your support and interest.**
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 \# CVD-BitMatrix: Bit-Plane Layered Image Compression (CVD1 \& CVD2)
 
 
